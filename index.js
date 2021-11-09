@@ -19,7 +19,7 @@ const start = async () => {
         // await mongoose.connect(`mongodb://localhost:27017/mongodb`)
         await mongoose.connect(process.env.BD_URL)
 
-        app.listen(PORT, () => console.log(`===== Server started on port ${PORT} =====`))
+        app.listen(PORT, () => )
 
         // await axios.get('http://localhost:5000/api/v1/checker/' + process.env.ROOT_TOKEN)
 
