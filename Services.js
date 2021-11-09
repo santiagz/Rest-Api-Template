@@ -91,7 +91,7 @@ class services {
     }
 
     async S_Test_Get(req,res){
-        console.log("S_Test_get working")
+        
         return res.status(200).json({message:'S_Test_get working'})
     }
 
